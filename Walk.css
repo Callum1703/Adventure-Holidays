@@ -103,7 +103,7 @@ body {
 
 /* Background Image for the Page */
 html { 
-    background: url(/Imgs/love-3694475_1920.jpg) no-repeat center center fixed;
+    background: url(Imgs/love-3694475_1920.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
