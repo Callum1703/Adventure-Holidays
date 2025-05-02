@@ -1,0 +1,166 @@
+/* Title Styling */
+.Title {
+    text-align: center;
+    font-family: Georgia;
+    color: red;
+    border-style: ridge;
+    max-width: 35%;
+    position: relative;
+    left: 640px;
+    background-color: rgb(83, 83, 240);
+    height: 60px;
+    top: 100px;
+}
+
+/* Body Styling */
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Heading Styling */
+.N {
+    text-align: center;
+    font-family: Verdana;
+    position: relative;
+    top: 100px;
+    border-style: solid;
+    max-width: 35%;
+    left: 640px;
+    background-color: rgb(83, 83, 240);
+    height: 60px;
+}
+
+/* Information Box Styling */
+.Info {
+    text-align: center;
+    font-family: Verdana;
+    position: relative;
+    top: 100px;
+    border-style: solid;
+    max-width: 35%;
+    left: 640px;
+    background-color: azure;
+    height: 380px;
+}
+
+/* Navbar Styling */
+.Navbar {
+    position: relative;
+    bottom: 120px;
+}
+
+/* Navbar List Styling */
+.Navbar ul {
+    list-style-type: none;
+    background-color: rgb(83, 83, 240);
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+
+/* Navbar List Item Styling */
+.Navbar li {
+    float: left;
+    position: relative;
+    left: 640px;
+    font-size: 30px;
+}
+
+/* Navbar Link Styling */
+.Navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+
+/* Navbar Hover Effect */
+.Navbar a:hover {
+    background-color: rgb(114, 139, 224);
+}
+
+/* Video Styling */
+.Vid {
+    position: relative;
+    top: 200px;
+    left: 700px;
+}
+
+/* Packing List Styling */
+.Pack {
+    position: relative;
+    bottom: 800px;
+}
+
+/* Day Itinerary Styling */
+.Day {
+    position: relative;
+    bottom: 1100px;
+    font-style: italic;
+    margin: none;
+}
+
+/* Background Image for the Page */
+html { 
+    background: url(/Imgs/WhiteRafting.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+/* Itinerary Title Styling */
+.IT {
+    position: relative;
+    bottom: 800px;
+    font-style: italic;
+    margin: none;
+}
+
+/* Itinerary Styling */
+.Itinerary {
+    border-style: solid;
+    max-width: 27%;
+    position: relative;
+    padding-top: 800px;
+    bottom: 610px;
+    max-height: 10px;
+    background-color: rgb(114, 139, 224);
+    bottom: 640px;
+}
+
+/* Pre-Activity Text Styling */
+.Pre {
+    position: relative;
+    bottom: 790px;
+    font-style: italic;
+}
+
+/* Before Activity Information Styling */
+.infobefore {
+    position: relative;
+    bottom: 800px;
+}
+
+/* Form Container Styling */
+.container {
+    border-style: solid;
+    max-width: 20%;
+    background-color: azure;
+    position: relative;
+    left: 1400px;
+    bottom: 300px;
+}
+
+/* Date Picker Styling */
+.date {
+    row-gap: 100px;
+    padding-bottom: 20px;
+} 
+
+/* Amount Input Styling */
+.Amount {
+    padding-bottom: 30px;
+}

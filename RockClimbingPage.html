@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+<head> 
+<meta charset="utf-8">
+<meta name="description" content="Free Web tutorials">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="Rock.css"> <!-- Link to external CSS file for styling -->
+
+<title> Rock Climbing </title>
+</head>
+
+<body> 
+    <!-- Main title of the page -->
+    <h1 Class="Title"> Adventure Holidays </h1>
+
+    <!-- Navigation menu with links to different pages -->
+    <nav class="Navbar"> 
+      <ul>
+        <li><a href="index.html"> Home </a></li>
+        <li><a href="ParaglidingPage.html"> Paragliding </a></li>
+        <li><a href="Walking.html"> Walking </a></li>
+        <li><a href="WhiteWaterRafting.html"> White Water Rafting </a></li>
+      </ul>
+    </nav>
+
+    <!-- Section title for Rock Climbing -->
+    <h1 Class="N"> Rock Climbing </h1>
+
+    <!-- Description of the Rock Climbing activity -->
+    <h3 Class="Info">
+        Rock climbing offers an exhilarating blend of physical challenge and mental strategy as <br> 
+        participants navigate vertical terrain using strength, flexibility, and problem-solving skills. <br>
+        The activity typically begins with a safety briefing covering proper equipment use, <br>
+        including harnesses, ropes, helmets, and climbing shoes, followed by instruction on basic climbing <br>
+        techniques such as three-point contact, body positioning, and efficient movement.<br>
+        Climbers can experience various formats including top-roping (where the rope runs through an anchor at the <br>
+        top of the route), bouldering (low-height climbing without ropes over safety mats). <br>
+        This activity is incredibly fun and challenging and can train your body to an incredible extent.
+    </h3>
+
+    <!-- Embedded YouTube video of Rock Climbing -->
+    <iframe Class="Vid" width="560" height="315" src="https://www.youtube.com/embed/BybE2-57K3Q?si=jCHHquai1MqOWQGM" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+    <!-- Section for Itinerary details -->
+    <div Class="Itinerary">
+        <h1 Class="IT"> Itinerary </h1>
+
+        <!-- Pre-activity preparation information -->
+        <h2 Class="Pre"> Pre Activity (1 - 2 days before) </h2> 
+        <p class="infobefore"> Figure out what equipment you need to bring versus what's provided <br> Below is things you should pack </p>
+
+        <!-- List of items to pack for the climbing activity -->
+        <div class="Pack">
+            <ul>
+                <li> Comfortable athletic clothes </li>
+                <li> Water Bottle (at least 1 litre) </li>
+                <li> Small Snacks</li>
+                <li> Towel </li>
+                <li> Hand Lotion (for after climbing) </li>
+            </ul>
+        </div>
+
+        <!-- Day-of itinerary for the rock climbing adventure -->
+        <div Class="Day">
+            <h2> Day Of The Climb </h2>
+
+            <!-- Timed events during the rock climbing day -->
+            <h3> 8:00 AM - 9:00 AM: Preparation </h3>
+            <h3> 9:00 AM - 9:30 AM: Arrival at Climbing Facility </h3>
+            <h3> 9:30 AM - 10:15 AM: Intro and Safety Orientation </h3>
+            <h3> 10:15 AM - 11:00 AM: Basic Techniques Lesson</h3>
+            <h3> 11:00 AM - 12:00 AM: First Climbing Attempts </h3>
+            <h3> 12:00 AM - 12:45 AM: Lunch Break </h3>
+            <h3> 12:45 AM - 1:15 PM: Review and Technique Refinement </h3>
+            <h3> 1:15 PM - 2:30 PM: Continued Practice </h3>
+            <h3> 2:30 PM - 3:00 PM: CoolDown and Debrief </h3>
+            <h3> 3:00 PM - 3:30 PM: Wrap Up </h3>
+        </div>
+    </div>
+
+    <!-- Booking form for the rock climbing activity -->
+    <div class="container">
+        <form action="action_page.php"> </form>
+
+        <!-- Date selection input -->
+        <div class="date">
+            <label for="DateOf"> Date of the booking</label>
+            <input type="date" id="DateOf" name="date">
+        </div>
+
+        <!-- Number of people input -->
+        <div class="Amount"> 
+            <label for="people"> Amount of people </label>
+            <input type="number" id="people" name="people" min="1" max="8" value="1" required>
+        </div>
+
+        <!-- Submit button -->
+        <div class="sub">
+            <input type="submit" value="Submit">
+        </div>
+    </div>
+
+    <!-- Link to external JavaScript file -->
+    <script src="RockJava.js"></script>
+</body>
+</html>

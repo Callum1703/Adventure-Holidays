@@ -1,0 +1,129 @@
+
+    
+
+
+
+
+/* Title Styling */
+.Title {
+    text-align: center;
+    font-family: Georgia;
+    color: red;
+    border-style: ridge;
+    max-width: 35%;
+    position: relative;
+    left: 640px;
+    background-color: rgb(83, 83, 240);
+    height: 60px;
+    top: 100px;
+}
+
+/* Company Info Styling */
+.CompInfo {
+    text-align: center;
+    font-family: Verdana;
+    position: relative;
+    top: 100px;
+    border-style: solid;
+    max-width: 35%;
+    left: 560px;
+    background-color: azure;
+    height: 200px;
+}
+
+/* Navbar Styling */
+.Navbar {
+    position: relative;
+    bottom: 120px;
+}
+
+/* Navbar List Styling */
+.Navbar ul {
+    list-style-type: none;
+    background-color: rgb(83, 83, 240);
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+
+/* Navbar List Item Styling */
+.Navbar li {
+    float: left;
+    position: relative;
+    left: 640px;
+    font-size: 30px;
+}
+
+/* Navbar Link Styling */
+.Navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+
+/* Navbar Hover Effect */
+.Navbar a:hover {
+    background-color: rgb(114, 139, 224);
+}
+
+/* Rock Climbing Image Styling */
+.RockClimbing {
+    border-radius: 8px;
+    width: 320px;
+    position: relative;
+    top: 100px;
+    left: 100px;
+}
+
+/* Background Image for the Page */
+
+
+html {
+  background-image: url('Imgs/Couple.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+
+
+/* Walking Activity Image Styling */
+.Walking {
+    border-radius: 8px;
+    width: 340px;
+    position: relative;
+    height: 230px;
+    top: 200px;
+    left: 200px;
+}
+
+/* Paragliding Activity Image Styling */
+.Paragliding {
+    border-radius: 8px;
+    width: 340px;
+    position: relative;
+    height: 230px;
+    top: 200px;
+    left: 320px;
+}
+
+/* Rafting Activity Image Styling */
+.Rafting {
+    border-radius: 8px;
+    width: 340px;
+    position: relative;
+    height: 230px;
+    top: 100px;
+    left: 420px;
+}
+
+/* Company Info Heading Styling */
+h2.CompInfo {
+    border-style: solid;
+    background-color: beige;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
